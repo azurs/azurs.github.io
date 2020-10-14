@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://sky.longan.plus/about/index.html</loc>
+    
+    <lastmod>2020-10-14</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://sky.longan.plus/friend/index.html</loc>
+    
+    <lastmod>2020-10-14</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://sky.longan.plus/2020/10/13/hello-world/</loc>
     
     <lastmod>2020-10-12</lastmod>
@@ -24,20 +38,6 @@
   
   <url>
     <loc>http://sky.longan.plus/tags/index.html</loc>
-    
-    <lastmod>2020-10-12</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://sky.longan.plus/friend/index.html</loc>
-    
-    <lastmod>2020-10-12</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://sky.longan.plus/about/index.html</loc>
     
     <lastmod>2020-10-12</lastmod>
     
