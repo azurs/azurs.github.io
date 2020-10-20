@@ -51,20 +51,6 @@
   </url>
   
   <url>
-    <loc>https://azusr.github.io/album/index.html</loc>
-    
-    <lastmod>2020-10-12</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://azusr.github.io/media/index.html</loc>
-    
-    <lastmod>2020-10-12</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://azusr.github.io/message/index.html</loc>
     
     <lastmod>2020-10-12</lastmod>
@@ -72,7 +58,21 @@
   </url>
   
   <url>
+    <loc>https://azusr.github.io/album/index.html</loc>
+    
+    <lastmod>2020-10-12</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://azusr.github.io/music/index.html</loc>
+    
+    <lastmod>2020-10-12</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://azusr.github.io/media/index.html</loc>
     
     <lastmod>2020-10-12</lastmod>
     
