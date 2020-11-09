@@ -6,7 +6,7 @@
   <link href="https://azusr.github.io/atom.xml" rel="self"/>
   
   <link href="https://azusr.github.io/"/>
-  <updated>2020-11-09T15:03:55.959Z</updated>
+  <updated>2020-11-09T15:06:30.229Z</updated>
   <id>https://azusr.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>mysql连接报错Too many connections 1040</title>
+    <title>mysql 5.7 The target instance must be either cloned or fully provisioned before it can...</title>
     <link href="https://azusr.github.io/2020/11/09/post-02-mysql/"/>
     <id>https://azusr.github.io/2020/11/09/post-02-mysql/</id>
     <published>2020-11-09T14:50:05.000Z</published>
-    <updated>2020-11-09T15:03:55.959Z</updated>
+    <updated>2020-11-09T15:06:30.229Z</updated>
     
     <content type="html"><![CDATA[<hr><p>mysql 5.7 The target instance must be either cloned or fully provisioned before it can…</p><a id="more"></a><p>mysql5.7 集群掉线时重进加入集群，有时会报错The target instance must be either cloned or fully provisioned before it can…</p><p>mysql5.7 版本不支持以clone方式重新加入集群。</p><p>参考解决方案：</p><ol><li><p>清空无法加入集群节点的mysql.gtid_executed表（注意备份，无效是方便恢复找其他解决方案），若当前节点是只读节点，先重启本节点；</p></li><li><p>将当前集群可用节点的mysql.gtid_executed表中的数据复制到有问题的集群节点；</p></li><li><p>重启问题节点；</p></li><li><p>将问题节点重新加入集群。</p></li></ol><p>若以上方案无效，可尝试先将问题节点数据备份，再将正常节点数据导入问题节点，重新执行addInstance操作。</p>]]></content>
     
